@@ -11,7 +11,6 @@ table {
   margin: 20px auto;
   width: 100%;
   max-width: 1000px;
-
 }
 
 td {
@@ -25,4 +24,32 @@ th {
 
 .bg-gr {
   background-color: #ccb8b8;
+}
+
+.t {
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 200px auto;
+}
+
+.s {
+  width: 50px;
+  height: 50px;
+  background: orange;
+  position: relative;
+  left: 100px;
+}
+.f {
+  width: 50px;
+  height: 50px;
+  background: rgb(0, 145, 255);
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+}
+
+input {
+  position: relative;
+  top: 10px;
 }
